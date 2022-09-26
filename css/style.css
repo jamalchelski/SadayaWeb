@@ -1,0 +1,86 @@
+body {
+    width: fit-content;
+}
+.brand-name{
+    color: rgb(16, 33, 185);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.brand-dec{
+    color:  rgb(16, 33, 185);
+    font-weight: 700;
+    margin-top: -15px;
+    letter-spacing: 1px;
+}
+.brand-logo{
+    height: 120px;
+    margin-top: 12px;
+}
+
+.banner{
+    height: 120px;
+    background-color: aqua;
+}
+.desc{
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 30, 170);
+    font-weight: 600;
+}
+.list{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 10px;
+    border-radius: 30px;
+    border-color: rgba(97, 96, 96, 0.568);
+    border-style: solid;
+}
+.reg{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 10px;
+    border-radius: 30px;
+    border-color: rgba(97, 96, 96, 0.568);
+    border-style: solid;
+
+
+}
+.Areg{
+    background-color: rgb(12, 158, 158);
+    border-radius: 30px;
+    color: azure;
+    padding-left: 55px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Alist{
+    background-color: rgb(12, 158, 158);
+    border-radius: 30px;
+    color: azure;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .brand-name {
+      text-align:center;
+    }
+    .brand-dec {
+      text-align:center;
+    }
+    .brand-logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
