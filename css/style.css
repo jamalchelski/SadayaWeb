@@ -1,5 +1,6 @@
 body {
     width: fit-content;
+    position: relative;
 }
 .brand-name{
     color: rgb(16, 33, 185);
@@ -17,9 +18,11 @@ body {
     margin-top: 12px;
 }
 
-.banner{
-    height: 120px;
-    background-color: aqua;
+.banner-wrap {
+    width: max-content;
+}
+.banner {
+    width: auto;
 }
 .desc{
     font-size: 13px;
@@ -68,8 +71,31 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-
+.regist {
+    padding-top: -50px;
+}
+.harga {
+    padding-top: -100px;
+}
+.contactcs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.imgWa {
+    height: 50px;
+    align-content: center;
+}
+.gbr {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.logoHp {
+    position: absolute;
+    height: 515px;
+    top: 20px;
+    right: 10px;
+}
 
 @media only screen and (max-width: 800px) {
     .brand-name {
@@ -82,5 +108,15 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+    .logoHp {
+        height: 200px;
+        position: relative;
+        margin-left: 20px;
+        
+    }
+    .banner {
+        width: 200px;
+
     }
   }
